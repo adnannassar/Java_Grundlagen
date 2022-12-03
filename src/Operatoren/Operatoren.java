@@ -21,5 +21,19 @@ public class Operatoren {
         System.out.println(x + " <= " + y + " = " + (x <= y));
         System.out.println(x + " >= " + y + " = " + (x >= y));
 
+
+        // Prefix and Postfix
+        int number = 10;
+        System.out.println("Number: "+ number++);
+        System.out.println("Number: "+ ++number);
+
+
+        int a = 1;
+        int b = 2;
+        System.out.println(++a);
+        System.out.println(a);
+        System.out.println(++b); // 3
+
+
     }
 }
