@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.OneDimArray;
 
 import java.util.Random;
 
