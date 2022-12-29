@@ -53,7 +53,7 @@ public class Student {
 
     // actions
     public void showInfo() {
-        System.out.println("Name: " + name + "\tAge: " + age + "\tNote: " + note +"\tStatus: "+ getStatus());
+        System.out.println("Name: " + name + "\tAge: " + age + "\tNote: " + note + "\tStatus: " + getStatus());
     }
 
     public String getStatus() {

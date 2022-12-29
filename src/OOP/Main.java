@@ -1,7 +1,6 @@
 package OOP;
 
-import javax.swing.*;
-import java.util.Random;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,7 +13,6 @@ public class Main {
         ayat.setAge(25);
 
         Student adnan = new Student("Adnan", 30, 4.3f);
-        ayat.setAge(25);
 
 
         Student[] students = {amani, ayat, adnan};
@@ -23,6 +21,8 @@ public class Main {
             students[i].showInfo();
         }
     }
+
+
 }
 
 
