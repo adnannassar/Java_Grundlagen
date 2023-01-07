@@ -1,6 +1,8 @@
 package OOP;
 
 
+import OOP.Vererbung.MitarbeiterExample.Angestellter;
+
 import java.util.Scanner;
 
 public class Main {
