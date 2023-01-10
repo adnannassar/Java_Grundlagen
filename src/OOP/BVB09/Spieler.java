@@ -5,7 +5,7 @@ public class Spieler extends Mitglied{
     private int anzahlSpielEinsätzen;
 
     public Spieler(String vorname, String name, String spielPosition, int anzahlSpielEinsätzen){
-        super(vorname, name);
+        super(vorname, name, MitgliedType.S);
         this.spielPosition = spielPosition;
         this.anzahlSpielEinsätzen = anzahlSpielEinsätzen;
     }
@@ -29,5 +29,10 @@ public class Spieler extends Mitglied{
     @Override
     public double berechneJahreGehalt() {
         return (180000 * 12 ) + (5000 * anzahlSpielEinsätzen) ;
+    }
+
+    @Override
+    public String sonstiges() {
+        return "Position: " + spielPosition + " / Spieleinsätze: " + anzahlSpielEinsätzen;
     }
 }

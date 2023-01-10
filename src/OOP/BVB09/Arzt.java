@@ -1,9 +1,10 @@
 package OOP.BVB09;
 
-public class Arzt extends Mitglied{
+public class Arzt extends Mitglied {
     private String fachrichtung;
-    public Arzt(String vorname, String name, String fachrichtung){
-        super(vorname, name);
+
+    public Arzt(String vorname, String name, String fachrichtung) {
+        super(vorname, name, MitgliedType.A);
         this.fachrichtung = fachrichtung;
     }
 
@@ -17,6 +18,11 @@ public class Arzt extends Mitglied{
 
     @Override
     public double berechneJahreGehalt() {
-      return 10000 * 12;
+        return 10000 * 12;
+    }
+
+    @Override
+    public String sonstiges() {
+        return "Fachrichtung: " + fachrichtung;
     }
 }

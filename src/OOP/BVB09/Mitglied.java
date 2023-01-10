@@ -5,9 +5,16 @@ public abstract class Mitglied {
     private String vorname;
     private String name;
 
-    public Mitglied(String vorname, String name) {
+    private MitgliedType type;
+
+    public Mitglied(String vorname, String name, MitgliedType type) {
         this.vorname = vorname;
         this.name = name;
+        this.type = type;
+    }
+
+    public MitgliedType getType() {
+        return type;
     }
 
     public String getVorname() {
@@ -27,4 +34,5 @@ public abstract class Mitglied {
     }
 
     public abstract double berechneJahreGehalt();
+    public abstract String sonstiges();
 }
