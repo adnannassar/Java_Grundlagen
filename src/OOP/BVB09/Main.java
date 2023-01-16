@@ -7,7 +7,6 @@ public class Main {
         Trainer thomas = new Trainer("Thomas", "Tuchel");
         thomas.setLieblingsSpieler(pierre);
 
-
         // create instance of Mannschaftsverwaltung
         Mannschaftsverwaltung manschaftverwaltung = new Mannschaftsverwaltung("BVB 09");
 
