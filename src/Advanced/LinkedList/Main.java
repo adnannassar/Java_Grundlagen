@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
 
-        // MY LINKED LIST
+        // MY LINKED LIST TEST
         System.out.println("My Linked list: ");
         MyLinkedList<Integer> myLinkedList = new MyLinkedList();
         System.out.println("Tyr to print --> " + myLinkedList);
