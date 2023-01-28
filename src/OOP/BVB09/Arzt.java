@@ -8,6 +8,10 @@ public class Arzt extends Mitglied {
         this.fachrichtung = fachrichtung;
     }
 
+
+
+
+
     public String getFachrichtung() {
         return fachrichtung;
     }

@@ -17,11 +17,11 @@ public abstract class Mitglied {
         return type;
     }
 
-    public String getVorname() {
+    public final String getVorname() {
         return vorname;
     }
 
-    public void setVorname(String vorname) {
+    public final void setVorname(String vorname) {
         this.vorname = vorname;
     }
 

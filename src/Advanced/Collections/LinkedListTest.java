@@ -1,13 +1,11 @@
 package Advanced.Collections;
 
-import OOP.BVB09.Mitglied;
-import OOP.Vererbung.Example1.Person;
+
 
 import java.util.LinkedList;
 
 public class LinkedListTest {
     public static void main(String[] args) {
-
         LinkedList<Integer> integerLinkedList = new LinkedList<>();
         System.out.println("integerLinkedList: " + integerLinkedList + ", size = " + integerLinkedList.size());
 
